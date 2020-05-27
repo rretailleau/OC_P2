@@ -1,14 +1,13 @@
 body {
 	display: flex;
 	margin: auto;
-	font-family: blackhawk, Verdana, Arial, Comic Sans MS;
+	font-family: blackhawk, Verdana, Arial, 'Comic Sans MS';
 	background-color: whitesmoke;
 	max-width: 1280px;
 }
 
 i {
-	width: 16px;
-	margin:0px 15px 0px 10px;
+	margin:0px 10px 0px 10px;
 }
 
 .far.fa-dot-circle {
@@ -20,7 +19,7 @@ i {
 }
 
 aside {
-	background-color: #66CD1A;	
+	background-color: #8BC34A;	
 	width: 300px;
 	min-width: 300px;
 	max-width: 300px;
@@ -35,7 +34,7 @@ aside {
 
 .aside-photo {
 	margin: auto;
-	border-radius: 90px;
+	border-radius: 100%;
 }
 
 .aside-headerresponsive {
@@ -81,10 +80,16 @@ aside {
 }
 
 .aside-loisirs {
-	font-size: 2em;
+	font-size: 2.5em;
 	color: white;
 	text-align: center;
 	margin-bottom: 25px;
+}
+
+.aside-loisir-icon {
+	border: 2px solid;
+	border-radius: 100%;
+	padding: 5px 5px 5px 5px;
 }
 
 .main-body {
@@ -94,49 +99,49 @@ aside {
 }
 
 a {
-	color:blue;
+	color:#311B92;
 }
 
 a:hover {
-	color: red;
+	color: #880E4F;
 }
 
 ul {
-	padding-inline-start: 20px;
+	padding-left: 20px;
 }
 
 strong {
-	color: #66CD1A;
+	color: #8BC34A;
 	font-weight: bold;
 }
 
 h1 {
-	color: #202040;
+	color: #212121;
 	font-size:3em;
 	font-weight: normal;
 	margin-bottom: 0.5em;
 }
 
 h3 {
-	color: #66CD1A;
+	color: #8BC34A;
 	font-size:1.5em;
-	border-bottom: 3px #66CD1A solid;
+	border-bottom: 3px #8BC34A solid;
 	text-align: left;
 	width: 95%;
 	margin-right: 0;
 }
 
 h4 {
-	color: #66CD1A;
+	color: #8BC34A;
 	font-size:1.25em;
-	background-color: black;
+	background-color:#212121;
 	padding: 10px 0px 10px 0px;
 	text-align: center;
 }
 
 .aside-title {
 	font-size:1.25em;
-	background-color: black;
+	background-color: #212121;
 	padding: 10px 0px 10px 0px;
 	text-align: center;
 	width: 100%;
@@ -146,20 +151,20 @@ h4 {
 .main-experiences-exp-title {
 	font-size: 1.2em;
 	margin: 0;
-	color: black;
+	color: #212121;
 	background-color: white;
 	text-align: left;
 	padding: 0;
 }
 
 .header-target {
-	color: black;
+	color: #212121;
 	font-size: 1.25em;
 	margin-bottom: 3em;
 }
 
 .souligne {
-	border-bottom: 3px solid #69A92D;
+	border-bottom: 3px solid #8BC34A;
 }
 
 .main-competences {
@@ -196,7 +201,7 @@ h4 {
 	body {
 		display: flex;
 		flex-direction: column;
-		background-color:#1c1c24;
+		background-color:#212121;
 		margin: auto;
 	}
 	
@@ -212,7 +217,7 @@ h4 {
 		font-size: 1em;
 	}
 	
-	header {
+	.header-mobile {
 		display: none;
 	}
 
@@ -231,5 +236,5 @@ h4 {
 @font-face {
     font-family: BLACKHAWK;
     src: url(BLACKHAWK\OTF\BLACKHAWK.otf) format('otf'),
-  	 url(BLACKHAWK\TTF\BLACKHAWK.ttf) format('truetype'),   
+  	 url(BLACKHAWK\TTF\BLACKHAWK.ttf) format('truetype');   
 }
