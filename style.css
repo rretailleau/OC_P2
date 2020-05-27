@@ -1,0 +1,235 @@
+body {
+	display: flex;
+	margin: auto;
+	font-family: blackhawk, Verdana, Arial, Comic Sans MS;
+	background-color: whitesmoke;
+	max-width: 1280px;
+}
+
+i {
+	width: 16px;
+	margin:0px 15px 0px 10px;
+}
+
+.far.fa-dot-circle {
+	padding-top: 5px;
+}
+
+.fas.fa-dot-circle {
+	padding-top: 5px;
+}
+
+aside {
+	background-color: #66CD1A;	
+	width: 300px;
+	min-width: 300px;
+	max-width: 300px;
+	display: flex;
+	flex-direction: column;
+}
+
+.aside-blocphoto {
+	text-align: center;
+	margin: 25px 5px 5px 5px;
+}
+
+.aside-photo {
+	margin: auto;
+	border-radius: 90px;
+}
+
+.aside-headerresponsive {
+	display: none;	
+}
+
+.aside-bloccontact {
+	color: white;
+	word-wrap: break-word;
+}
+
+.aside-contact {
+	display: flex;
+	margin-top: 2em;
+	line-height: 1.5em;
+	margin: auto;
+	padding: 5px 15px 5px 5px;
+}
+
+.aside-icone {
+	text-align: center;
+	margin-left: 10px;
+}
+
+.aside-propos {
+	text-align: left;
+	font-size:1em;
+	color: white;
+	padding: 5px 25px 5px 25px;
+}
+
+.aside-competences {
+	flex: 2;
+}
+
+.aside-competences-list {
+	padding: 5px 25px 5px 25px;
+	color: white;
+	text-align: left;
+	font-size:1em;
+	line-height: 1.5em;
+	list-style: none;
+}
+
+.aside-loisirs {
+	font-size: 2em;
+	color: white;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.main-body {
+	background-color: white;
+	color: #202040;
+	padding: 0px 10px 50px 30px;
+}
+
+a {
+	color:blue;
+}
+
+a:hover {
+	color: red;
+}
+
+ul {
+	padding-inline-start: 20px;
+}
+
+strong {
+	color: #66CD1A;
+	font-weight: bold;
+}
+
+h1 {
+	color: #202040;
+	font-size:3em;
+	font-weight: normal;
+	margin-bottom: 0.5em;
+}
+
+h3 {
+	color: #66CD1A;
+	font-size:1.5em;
+	border-bottom: 3px #66CD1A solid;
+	text-align: left;
+	width: 95%;
+	margin-right: 0;
+}
+
+h4 {
+	color: #66CD1A;
+	font-size:1.25em;
+	background-color: black;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+}
+
+.aside-title {
+	font-size:1.25em;
+	background-color: black;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+	width: 100%;
+	border-bottom: none;
+}
+
+.main-experiences-exp-title {
+	font-size: 1.2em;
+	margin: 0;
+	color: black;
+	background-color: white;
+	text-align: left;
+	padding: 0;
+}
+
+.header-target {
+	color: black;
+	font-size: 1.25em;
+	margin-bottom: 3em;
+}
+
+.souligne {
+	border-bottom: 3px solid #69A92D;
+}
+
+.main-competences {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center; 
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.main-experiences-exp {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 50px;
+}
+
+.main-formations-formation {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 50px;
+}
+
+.main-dates {
+	width: 150px;
+	padding-top: 3px;
+}
+
+.main-explib {
+	min-width: 280px;
+	flex:2;
+}
+
+@media all and (max-width: 650px) {
+	body {
+		display: flex;
+		flex-direction: column;
+		background-color:#1c1c24;
+		margin: auto;
+	}
+	
+	aside {
+		width: 100%;
+		min-width: unset;
+		max-width: unset;
+	}
+
+	.aside-headerresponsive {
+		display: block;
+		text-align: center;
+		font-size: 1em;
+	}
+	
+	header {
+		display: none;
+	}
+
+	.main-experiences-exp {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 3px 5px 3px 5px;
+	}
+
+	.main-dates {
+		width: 100px;
+		margin-bottom: 10px;
+	}
+}
+ 
+@font-face {
+    font-family: BLACKHAWK;
+    src: url(BLACKHAWK\OTF\BLACKHAWK.otf) format('otf'),
+  	 url(BLACKHAWK\TTF\BLACKHAWK.ttf) format('truetype'),   
+}
