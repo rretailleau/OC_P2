@@ -6,16 +6,20 @@ body {
 	max-width: 1280px;
 }
 
-i {
-	margin:0px 10px 0px 10px;
-}
-
-.far.fa-dot-circle {
+.far.fa-dot-circle, .fas.fa-dot-circle {
 	padding-top: 5px;
 }
 
-.fas.fa-dot-circle {
-	padding-top: 5px;
+.fas.fa-biking,	.fas.fa-book-reader, .fas.fa-running {
+	min-width: 50px;
+	max-width: 50px;
+	min-height: 50px;
+	max-height: 50px;
+}
+
+.fas, .far {
+	margin: 0px 10px 0px 10px;
+
 }
 
 aside {
@@ -48,18 +52,22 @@ aside {
 
 .aside-contact {
 	display: flex;
-	margin-top: 2em;
+	margin-top: 1em;
 	line-height: 1.5em;
-	margin: auto;
-	padding: 5px 15px 5px 5px;
 }
 
-.aside-icone {
-	text-align: center;
+.aside-contact-lib {
 	margin-left: 10px;
 }
+	
+.aside-icone {
+	display: flex;	
+	justify-content: center;
+	min-width: 20px;
+	max-width: 20px;
+}
 
-.aside-propos {
+.aside-propos, .aside-contacts, .aside-competences-list {
 	text-align: left;
 	font-size:1em;
 	color: white;
@@ -71,10 +79,6 @@ aside {
 }
 
 .aside-competences-list {
-	padding: 5px 25px 5px 25px;
-	color: white;
-	text-align: left;
-	font-size:1em;
 	line-height: 1.5em;
 	list-style: none;
 }
